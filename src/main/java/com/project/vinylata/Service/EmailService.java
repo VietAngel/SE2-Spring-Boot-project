@@ -20,7 +20,7 @@ public class EmailService {
         return Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("vietangelcompany@gmail.com", "powpafcbtoyrltkm");
+                return new PasswordAuthentication("************@gmail.com", "powpafcbtoyrltkm");
             }
         });
     }
